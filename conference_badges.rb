@@ -5,6 +5,6 @@ end
 
 def batch_badge_creator(array)
   x = Array.new
-  array.each {|name| badge_maker(name)}
+  array.each {|array_name| badge_maker(array_name)}
   x
 end
